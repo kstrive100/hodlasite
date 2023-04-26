@@ -1,0 +1,108 @@
+
+.main {
+    display: grid;
+    grid-template-areas: 'mainTitle waitlist';
+    grid-template-columns: 60% 40%;
+
+    width: 95vw;
+    height: 776px;
+    color: #FEFEFE;
+  } 
+  
+.mainTitle {
+  font-size: 170px;
+  margin: 40px 0 40px 50px;
+  padding: 0;
+  line-height: 139px;
+
+  grid-area: mainTitle
+}
+
+.mainTitle p {
+  margin: 0;
+  padding: 0;
+}
+
+.waitlist {
+  grid-area: waitlist;
+  font-size: 1.25rem;
+
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: 2fr 4fr;
+  align-items: end;
+}
+
+.waitlistText {
+  max-width: 250px;
+  line-height: 140%;
+  margin: 0 0 0 40px;
+}
+
+.waitlistForm {
+  align-self: start;
+  max-width: 350px;
+
+  border: 1px solid #5C5C5C;
+  border-radius: 105px;
+
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+
+.waitlistForm p {
+  margin-left: 40px;
+}
+
+.waitlistLogos {
+  display: flex;
+  flex-direction: row;
+  margin-right: 5px;
+}
+
+.waitlistLinks {
+  border-radius: 50%;
+  background: white;
+  width: 48px;
+  height: 48px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), 8px 8px 16px rgba(0, 0, 0, 0.08);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.telegramLayer {
+  margin-right: -10px;
+  z-index: 1;
+  background-image: linear-gradient(90deg, white,black);
+}
+
+.firstLayer {
+  position: relative;
+  z-index: 1;
+}
+
+.secondLayer {
+  position: absolute;
+  z-index: 2;
+  left: 6.6%;
+  bottom: 34%;
+}
+
+.thirdLayer {
+  position: absolute;
+  z-index: 3;
+  left: 6.6%;
+  bottom: 20%;
+}
+
+.grad1 {
+  background:radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 1) 32%, rgba(255, 255, 255, 0.5) 100%);
+  height: 3rem;
+  width: 3rem;
+  position: absolute;
+  z-index: 0;
+
+}

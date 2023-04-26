@@ -1,0 +1,20 @@
+import Image from 'next/image'
+import styles from "../styles/nav.module.css"
+
+export default function NavBar() {
+    return (
+        <nav className={styles.navList}>
+            <ul>
+                <li><a href="">Advantages</a></li>
+                <li><a href="">Roadmap</a></li>
+                <li> 
+                    <div className={styles.gridLogo}>
+                    <Image src="/hodla-logo.svg" alt="logo" width="84" height="38" />
+                    </div>
+                </li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">Join Us</a></li>
+            </ul>   
+        </nav>
+    )
+}
