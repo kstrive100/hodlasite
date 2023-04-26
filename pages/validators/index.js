@@ -2,7 +2,7 @@
 export default function Home() {
     return (
       <div>
-        Validator's page
+        Validator&apos;s page
       </div>
     )
   }
