@@ -1,7 +1,7 @@
 
 export default function Home() {
     return (
-      <div style={{color: `#FEFEFE`}}>
+      <div>
         Validator's page
       </div>
     )
