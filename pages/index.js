@@ -2,6 +2,8 @@ import FirstBlock from "@/components/FirstBlock"
 import NavBar from "@/components/NavBar"
 import { montserrat } from '../utils/fonts';
 import Grad from "@/utils/gradient"
+import Image from "next/image";
+
 
 export default function Home() {
   return (

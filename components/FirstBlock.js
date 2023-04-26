@@ -10,7 +10,7 @@ export default function FirstBlock() {
         <div className={styles.main}>
             <div className={`${styles.mainTitle} ${formula.className}`}>
                 <p className={styles.firstLayer}>Stake</p>
-                <p className={styles.firstLayer}>a<span className={styles.grad1}>ny</span></p>
+                <p className={styles.firstLayer}>any</p>
                 <p className={styles.secondLayer}>token in</p>
                 <p className={styles.thirdLayer}>1-click!</p>
             </div>
