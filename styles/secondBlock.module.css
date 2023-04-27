@@ -1,0 +1,49 @@
+.main {
+    width: 100vw;
+    height: 357px;
+    background: #E0D03B;
+    border-radius: 70px;
+    padding: 3.75rem 10rem;
+
+    display: grid;
+    grid-template-areas: 'grid-h1 grid-h1 grid-h1'
+                'secondRow secondRow secondRow';
+    justify-content: center;
+}
+
+.secondRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 40px;
+    
+    grid-area: secondRow;
+}
+
+.main h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    margin: 0;
+
+    grid-area: grid-h1;
+}
+
+.secondRow div {
+    max-width: 20vw;
+}
+
+.secondRow hr {
+    border: 1px solid #000000;
+    background-color: black;
+}
+
+.secondRow h3 {
+    font-size: 24px;
+}
+
+.secondRow p {
+    font-size: 18px;
+}

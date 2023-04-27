@@ -5,19 +5,19 @@
 
 body {
   background-color: black;
-  margin: 30px auto auto auto;
-  padding: 0px;
-  min-height: 100vh;
+  margin: 30px 0 0 0;
 
   display: flex;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .starImage {
   position: absolute;
   left: 50%;
-  top: 67%;
+  top: 45%;
   transform: translate(-50%,-50%);
+  width: 1175px;
+  height: 1150px;
   z-index: 0;
 }
 

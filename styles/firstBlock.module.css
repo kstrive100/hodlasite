@@ -1,17 +1,16 @@
-
 .main {
     display: grid;
     grid-template-areas: 'mainTitle waitlist';
     grid-template-columns: 60% 40%;
-
     width: 95vw;
-    height: 776px;
+    margin: auto;
+    height: 80vh;
     color: #FEFEFE;
-  } 
+} 
   
 .mainTitle {
   font-size: 170px;
-  margin: 40px 0 40px 50px;
+  margin: 40px 0 0 50px;
   padding: 0;
   line-height: 139px;
 
@@ -80,22 +79,21 @@
 }
 
 .firstLayer {
-  position: relative;
   z-index: 1;
 }
 
 .secondLayer {
   position: absolute;
   z-index: 2;
-  left: 6.6%;
-  bottom: 34%;
+  left: 5.5%;
+  bottom: 38%;
 }
 
 .thirdLayer {
   position: absolute;
   z-index: 3;
-  left: 6.6%;
-  bottom: 20%;
+  left: 5.5%;
+  bottom: 24%;
 }
 
 .grad1 {
