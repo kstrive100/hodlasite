@@ -11,15 +11,15 @@
 .mainTitle {
   font-size: 170px;
   margin: 40px 0 0 50px;
-  padding: 0;
   line-height: 139px;
+
+  position: relative;
 
   grid-area: mainTitle
 }
 
 .mainTitle p {
-  margin: 0;
-  padding: 0;
+  margin: auto;
 }
 
 .waitlist {
@@ -75,32 +75,35 @@
 .telegramLayer {
   margin-right: -10px;
   z-index: 1;
-  background-image: linear-gradient(90deg, white,black);
+}
+
+.discordLayer {
+  background-image: linear-gradient(-90deg, white 60%,black);
 }
 
 .firstLayer {
   z-index: 1;
+  position: inherit;
 }
 
 .secondLayer {
   position: absolute;
   z-index: 2;
-  left: 5.5%;
+  left: 0;
   bottom: 38%;
 }
 
 .thirdLayer {
   position: absolute;
   z-index: 3;
-  left: 5.5%;
-  bottom: 24%;
+  left: 0;
+  bottom: 20%;
 }
 
-.grad1 {
+/* .grad1 {
   background:radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 1) 32%, rgba(255, 255, 255, 0.5) 100%);
   height: 3rem;
   width: 3rem;
   position: absolute;
   z-index: 0;
-
-}
+} */

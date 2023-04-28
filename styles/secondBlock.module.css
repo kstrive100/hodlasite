@@ -8,6 +8,7 @@
     display: grid;
     grid-template-areas: 'grid-h1 grid-h1 grid-h1'
                 'secondRow secondRow secondRow';
+    grid-template-columns: 3fr 7fr;
     justify-content: center;
 }
 
@@ -16,7 +17,7 @@
     flex-direction: row;
     justify-content: center;
     gap: 80px;
-    margin-top: 40px;
+    margin-top: 0;
     
     grid-area: secondRow;
 }

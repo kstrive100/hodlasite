@@ -3,7 +3,7 @@ import localFont from 'next/font/local';
 
 const formula = localFont({ src: '../public/fonts/formulacondensed-bold-webfont.woff2' })
 
-export default function FirstBlock() {
+export default function SecondBlock() {
     return (
         <div className={styles.main}>
             <h1 className={formula.className}>No-brainer native staking</h1>

@@ -1,0 +1,31 @@
+.main {
+    background-image: url('/fog.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+    width: 100vw;
+    margin-top: 75px;
+}
+
+.title {
+    width: 95vw;
+    margin-inline: auto;
+}
+
+.main h1 {
+    margin: 0 0 0 50px;    
+    font-size: 145px;
+    line-height: 140px;
+}
+
+/* E0D03B */
+
+.h1Yellow {
+    color: #E0D03B;
+}
+
+.h1White {
+    color: white;
+    opacity: 0.3;
+}
