@@ -1,8 +1,6 @@
 import styles from "@/styles/roadmap.module.css"
-import localFont from 'next/font/local';
+import { formula } from '@/utils/fonts'
 import Image from "next/image";
-
-const formula = localFont({ src: '../public/fonts/formulacondensed-bold-webfont.woff2' })
 
 export default function Roadmap() {
     return (

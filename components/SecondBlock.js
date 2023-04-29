@@ -1,12 +1,12 @@
 import styles from "@/styles/secondBlock.module.css"
-import localFont from 'next/font/local';
-
-const formula = localFont({ src: '../public/fonts/formulacondensed-bold-webfont.woff2' })
+import { formula } from '@/utils/fonts'
 
 export default function SecondBlock() {
     return (
         <div className={styles.main}>
-            <h1 className={formula.className}>No-brainer native staking</h1>
+            <div className={styles.firstRowTitle}>
+                <h1 className={formula.className}>No-brainer native staking</h1>
+            </div>
             <div className={styles.secondRow}>
                 <div>
                     <hr />

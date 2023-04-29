@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "title": "What is Staking in Cryptocurrency?", 
+        "text": "Currently, there are a lot of blockchains worldwide, and all of them need some kind of user participation to provide consensus. The consensus protocol is a mechanism that allows blockchains to validate and approve or disapprove data and transactions before storing them to make blockchain faultless. There are quite a few different consensus algorithms, and Proof-of-Stake (PoS) and Delegated Proof-of-Stake (DPoS) are the most modern and advanced ones. To take part in the DPoS process, users save up digital assets to form a 'stake,' and delegate it to those who do all the upkeeping work and get a share of the reward in return. This process is called staking. By staking, you take part in the consensus mechanism, and the wallets that work as staking pools, share a part of their rewards, according to your stake with them. Initially, this process required a considerable understanding of staking coins, but currently, there are a lot of staking tools for older blockchains, which makes the process very easy."
+    },
+    {
+        "id": 2,
+        "title": "How Does Staking Work?",
+        "text": "To start staking coins, you need to select a coin, accumulate enough of it for staking and find yourself a pool. Working with staking services is very straightforward and allows you to forget about all the technical hassles. The pool will provide you with all the stats about your stake and reward share, and its support can assist you in case you have questions. Every service has a wallet address for a certain coin, and the only thing you need to do is delegate your stake to it. Once you do it, you are staking!"
+    },
+    {
+        "id": 3,
+        "title": "How Does Hodla Work?",
+        "text": "Hodla abstracts away all network-specific work and translates protocol-specific content into a single interface, offering a simplified user experience. It takes a standardised input for each transaction type and returns a protocol-specific transaction object that is fully ready to be signed and broadcast to the network. Hodla enables a full suite of staking transactions, including sending, depositing, staking, un-staking, and re-delegating tokens as well as claiming rewards."
+    },
+    {
+        "id": 4,
+        "title": "Is it safe?",
+        "text": "Staking is comparable with sending your funds to someone, but don't worry. They can't spend them and you retain full control of them. However, pools will have a possibility to cheat you, give smaller rewards, and use other possibilities of the protocol. Hence, you should always do your own research, and trust only pools that are transparent enough. Check our all the stats, research for the people behind the business and their contacts, check if they have any other blockchain-related businesses."
+    },
+    {
+        "id": 5,
+        "title": "Who are validators?",
+        "text": "A blockchain validator is someone who is responsible for verifying transactions on a blockchain. Once transactions are verified, they are added to the distributed ledger. In proof of work (PoW) systems like Bitcoin, validators, also known as miners, solve complex computational math problems in order to win the right to verify transactions and receive rewards for the “work.” In proof of stake (PoS) systems validators are given rewards as long as they stake the network’s token and correctly participate in the network. This mechanism helps secure the network by imposing the need to lock up value in the network in order to participate in the consensus decisions."
+    },
+    {
+        "id": 6,
+        "title": "Is Hodla free?",
+        "text": "Yes, it is fully free for stakers. We earn by taking a commission fee from our partner validators to whom Hodla users delegate their funds."
+    },
+    {
+        "id": 7,
+        "title": "To whom do I delegate?",
+        "text": "Delegation is made to the top-notch validators known in the chain. We thoroughly inspect each validator before integrating them to Hodla. We make sure that validator has average commission, highest possible uptime and a crystal-clear reputation."
+    }
+]

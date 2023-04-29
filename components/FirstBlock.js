@@ -1,9 +1,6 @@
 import Image from 'next/image'
 import styles from "@/styles/firstBlock.module.css"
-import Grad from '@/utils/gradient'
-import localFont from 'next/font/local';
-
-const formula = localFont({ src: '../public/fonts/formulacondensed-bold-webfont.woff2' })
+import { formula } from '@/utils/fonts'
 
 export default function FirstBlock() {
     return (
