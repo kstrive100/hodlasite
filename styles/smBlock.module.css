@@ -1,0 +1,15 @@
+.main {
+    width: 100vw;
+    height: 40vh;
+    background: #E0D03B;
+    border-radius: 70px;
+    margin: 3rem 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main h1 {
+    font-size: 11.25rem;
+}

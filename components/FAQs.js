@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 import faqTexts from '@/utils/faqTexts.json'
+
 import { formula, montserrat } from '@/utils/fonts'
 
 import styles from '@/styles/faq.module.css'

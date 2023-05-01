@@ -3,6 +3,7 @@ import FirstBlock from "@/components/FirstBlock"
 import SecondBlock from "@/components/SecondBlock"
 import Roadmap from "@/components/Roadmap"
 import FAQs from "@/components/FAQs"
+import SMBlock from "@/components/SMBlock"
 import { montserrat } from "@/utils/fonts"
 
 import Grad from "@/utils/gradient"
@@ -18,6 +19,7 @@ export default function Home() {
       <SecondBlock />
       <Roadmap />
       <FAQs />
+      <SMBlock />
     </div>
   )
 }
