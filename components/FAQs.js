@@ -37,10 +37,10 @@ export default function FAQs() {
               id="panel1a-header"
               className={styles.summary}
             >
-              <Typography className={`${styles.title} ${montserrat.className}`}>{item.title}</Typography>
+              <Typography className={styles.title}>{item.title}</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography className={`${styles.text} ${montserrat.className}`}>
+              <Typography className={styles.text}>
               {item.text}
               </Typography>
             </AccordionDetails>
