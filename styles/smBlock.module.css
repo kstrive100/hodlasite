@@ -1,15 +1,28 @@
 .main {
-    width: 100vw;
     height: 40vh;
+    width: 100vw;
     background: #E0D03B;
     border-radius: 70px;
     margin: 3rem 0;
 
+    white-space: nowrap;
+
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
-.main h1 {
+.textSlide {
+    width: 100%;
+    animation: 10s slide infinite linear;
     font-size: 11.25rem;
+    /* margin: 0 50px; */
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
 }
