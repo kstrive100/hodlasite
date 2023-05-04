@@ -4,9 +4,9 @@ import SecondBlock from "@/components/SecondBlock"
 import Roadmap from "@/components/Roadmap"
 import FAQs from "@/components/FAQs"
 import SMBlock from "@/components/SMBlock"
-import { montserrat } from "@/utils/fonts"
+import Footer from "@/components/Footer"
 
-import Grad from "@/utils/gradient"
+import { montserrat } from "@/utils/fonts"
 import Image from "next/image";
 
 
@@ -20,6 +20,7 @@ export default function Home() {
       <Roadmap />
       <FAQs />
       <SMBlock />
+      <Footer />
     </div>
   )
 }

@@ -9,7 +9,7 @@ export default function NavBar() {
                 <li><a href="">Roadmap</a></li>
                 <li> 
                     <div className={styles.gridLogo}>
-                    <Image src="/hodla-logo.svg" alt="logo" width="84" height="38" />
+                        <Image src="/hodla-logo-black.svg" alt="logo" width="84" height="38" />
                     </div>
                 </li>
                 <li><a href="">FAQ</a></li>

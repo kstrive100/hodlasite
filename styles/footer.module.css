@@ -1,0 +1,24 @@
+.main {
+    color: white;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gridLogo {
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.main h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.main p {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
