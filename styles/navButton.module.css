@@ -1,0 +1,57 @@
+.main {
+    position: sticky;
+    bottom: 75%;
+    left: 40%;
+
+    width: 18rem;
+    height: 4rem;
+    z-index: 50;
+
+    display: flex;
+    justify-content: space-around;
+
+    border: 1px solid #363636;
+    background: black;
+    border-radius: 1000px;
+    color: white;
+    
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.stakers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 50%;
+    height: 100%;
+    border-radius: 1000px;
+}
+
+.validators {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 50%;
+    height: 100%;
+    border-radius: 1000px;
+}
+
+.validators a,
+.stakers a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+#activeStakers {
+    background: #E0D03B;
+    color: black;
+}
+
+#activeValidators {
+    background: #F46228;
+    color: black;
+}

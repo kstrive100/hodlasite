@@ -5,6 +5,7 @@ import Roadmap from "@/components/Roadmap"
 import FAQs from "@/components/FAQs"
 import SMBlock from "@/components/SMBlock"
 import Footer from "@/components/Footer"
+import NavigationButton from '@/components/NavigationButton'
 
 import { montserrat } from "@/utils/fonts"
 import Image from "next/image";
@@ -21,6 +22,7 @@ export default function Home() {
       <FAQs />
       <SMBlock />
       <Footer />
+      <NavigationButton />
     </div>
   )
 }

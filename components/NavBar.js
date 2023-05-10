@@ -14,7 +14,7 @@ export default function NavBar() {
                 </li>
                 <li><a href="">FAQ</a></li>
                 <li><a href="">Join Us</a></li>
-            </ul>   
+            </ul>
         </nav>
     )
 }

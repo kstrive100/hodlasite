@@ -1,25 +1,19 @@
 .main {
-    width: 100vw;
     height: 45vh;
+    
     background: #E0D03B;
     border-radius: 70px;
-    padding: 3.5rem 0;
 
-    display: grid;
-    grid-template-areas: 'grid-h1 grid-h1 grid-h1'
-                'secondRow secondRow secondRow';
+    display: flex;
     justify-content: center;
-
-    align-content: space-around;
 }
 
-.secondRow {
+.itemsContainer {
+    margin: auto max(15rem, 5%);
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 13rem;
-    
-    grid-area: secondRow;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 
 .firstRowTitle {
@@ -27,16 +21,21 @@
     font-weight: 700;
     font-size: 4rem;
     line-height: 5rem;
-
-    grid-area: grid-h1;
+    margin-bottom: 3rem;
 }
 
 .firstRowTitle h1 {
     margin: 0;
 }
 
+.secondRow {
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+}
+
 .secondRow div {
-    max-width: 15vw;
+    width: 33%;
     height: fit-content;
 }
 
