@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import styles from "@/styles/firstBlock.module.css"
+import styles from "@/styles/stakersFrontPage.module.css"
 import { formula } from '@/utils/fonts'
 
-export default function FirstBlock() {
+export default function StakersFrontPage() {
     return (
         <div className={styles.main}>
             <div className={`${styles.mainTitle} ${formula.className}`}>

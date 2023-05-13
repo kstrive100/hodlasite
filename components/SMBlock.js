@@ -3,9 +3,9 @@ import Image from 'next/image'
 
 import styles from '@/styles/smBlock.module.css'
 
-export default function SMBlock() {
+export default function SMBlock(props) {
     return (
-        <div className={`${styles.main} ${formula.className}`}>
+        <div className={`${styles.main} ${formula.className} ${styles[props.color]}`}>
             <div className={styles.outsideAnimationContainer}>
                 <div className={styles.animationContainer}>
                         <h1>join our community</h1>

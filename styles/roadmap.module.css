@@ -11,7 +11,8 @@
 }
 
 .itemsContainer {
-    margin: 0 max(15rem,5%);
+    margin: 0 20%;
+    min-width: 1080px;
 
     display: flex;
     flex-direction: column;
@@ -26,6 +27,10 @@
 
 .h1Yellow {
     color: #E0D03B;
+}
+
+.orangeTitle {
+    color: #f46228
 }
 
 .h1White {

@@ -1,0 +1,77 @@
+.main {
+    display: grid;
+    grid-template-areas: 'mainTitle form';
+    grid-template-columns: 70% 30%;
+    width: 95vw;
+    margin: auto;
+    height: 80vh;
+    color: #FEFEFE;
+    font-size: 1.125rem;
+} 
+  
+.mainTitle {
+  font-size: 170px;
+  margin: 40px 0 0 50px;
+  line-height: 139px;
+
+  position: relative;
+
+  grid-area: mainTitle
+}
+
+.mainTitle p {
+  margin: auto;
+}
+
+.firstLayer {
+  z-index: 1;
+  position: inherit;
+}
+
+.secondLayer {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  bottom: 38%;
+}
+
+.thirdLayer {
+  position: absolute;
+  z-index: 3;
+  left: 0;
+  bottom: 20%;
+}
+
+.form {
+  grid-area: form;
+  font-size: 1.25rem;
+  margin-top: -10rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.formText {
+  max-width: 250px;
+  line-height: 140%;
+}
+
+.contactButton {
+  background: #F46228; 
+  border-radius: 18px;
+  padding: 1rem 3.75rem;
+  color: black;
+  z-index: 10;
+  cursor: pointer;
+}
+
+/* .grad1 {
+  background:radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 1) 32%, rgba(255, 255, 255, 0.5) 100%);
+  height: 3rem;
+  width: 3rem;
+  position: absolute;
+  z-index: 0;
+} */

@@ -9,11 +9,11 @@
 }
 
 .itemsContainer {
-    margin: auto max(15rem, 5%);
+    margin: auto 20%;
+    min-width: 1080px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: flex-start;
 }
 
 .firstRowTitle {

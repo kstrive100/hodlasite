@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import styles from "../styles/nav.module.css"
 
-export default function NavBar() {
+export default function NavBar(props) {
     return (
-        <nav className={styles.navList}>
+        <nav className={`${styles.navList} ${styles[props.color]}`}>
             <ul>
                 <li><a href="">Advantages</a></li>
                 <li><a href="">Roadmap</a></li>

@@ -5,7 +5,7 @@ import { styled } from "@mui/material/styles";
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
-import faqTexts from '@/utils/faqTexts.json'
+import faqTexts from '@/utils/stakersFaqTexts.json'
 
 import { formula, montserrat } from '@/utils/fonts'
 
@@ -22,31 +22,33 @@ const StyledAccordion = styled(Accordion)({
   }
 });  
 
-export default function FAQs() {
+export default function FAQs(props) {
   return (
     <div className={styles.main}>
-      <div className={styles.firstTitle}>
-        <h1 className={formula.className}>FAQ</h1>
-      </div>
-      <div className={styles.accordions}>
-        {faqTexts.map((item, index) => (
-          <StyledAccordion key={index}>
-            <AccordionSummary
-              expandIcon={<ExpandMoreIcon className={styles.expand_icon}/>}
-              aria-controls="panel1a-content"
-              id="panel1a-header"
-              className={styles.summary}
-            >
-              <Typography className={styles.title}>{item.title}</Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <Typography className={styles.text}>
-              {item.text}
-              </Typography>
-            </AccordionDetails>
-          </StyledAccordion>
-          ))
-        }
+      <div className={styles.itemsContainer}>
+        <div className={styles.firstTitle}>
+          <h1 className={formula.className}>FAQ</h1>
+        </div>
+        <div className={styles.accordions}>
+          {props.faq.map((item, index) => (
+            <StyledAccordion key={index}>
+              <AccordionSummary
+                expandIcon={<ExpandMoreIcon className={styles.expand_icon}/>}
+                aria-controls="panel1a-content"
+                id="panel1a-header"
+                className={styles.summary}
+              >
+                <Typography className={styles.title}>{item.title}</Typography>
+              </AccordionSummary>
+              <AccordionDetails>
+                <Typography className={styles.text}>
+                {item.text}
+                </Typography>
+              </AccordionDetails>
+            </StyledAccordion>
+            ))
+          }
+        </div>
       </div>
     </div>
   );

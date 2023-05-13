@@ -22,6 +22,26 @@
   margin: auto;
 }
 
+
+.firstLayer {
+  z-index: 1;
+  position: inherit;
+}
+
+.secondLayer {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  bottom: 38%;
+}
+
+.thirdLayer {
+  position: absolute;
+  z-index: 3;
+  left: 0;
+  bottom: 20%;
+}
+
 .waitlist {
   grid-area: waitlist;
   font-size: 1.25rem;
@@ -79,25 +99,6 @@
 
 .discordLayer {
   background-image: linear-gradient(-90deg, white 60%,black);
-}
-
-.firstLayer {
-  z-index: 1;
-  position: inherit;
-}
-
-.secondLayer {
-  position: absolute;
-  z-index: 2;
-  left: 0;
-  bottom: 38%;
-}
-
-.thirdLayer {
-  position: absolute;
-  z-index: 3;
-  left: 0;
-  bottom: 20%;
 }
 
 /* .grad1 {
